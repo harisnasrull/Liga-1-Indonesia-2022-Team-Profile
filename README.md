@@ -6,15 +6,15 @@ Mobile Apps for Liga 1 Indonesia 2022 team list and profile using Flutter, you c
 
 - If you want to edit design of club list, open :
 
-lib/club_list.dart
+                  lib/club_list.dart
 
 - If you want to edit deatil of each club design , open :
 
-lib/detail_club.dart
+                  lib/detail_club.dart
 
 - If you want to update club database, open :
 
-/lib/model/indonesian_club.dart
+                  /lib/model/indonesian_club.dart
 
 A few resources to get you started if this is your first Flutter project:
 
