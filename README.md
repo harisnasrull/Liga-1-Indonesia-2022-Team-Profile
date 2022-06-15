@@ -1,10 +1,20 @@
 # liga_indonesia_2022
 
-A new Flutter project.
+Mobile Apps for Liga 1 Indonesia 2022 team list and profile using Flutter, you can run it on android, ios, browser, and windows if you use latest version of flutter
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+- If you want to edit design of club list, open :
+
+lib/club_list.dart
+
+- If you want to edit deatil of each club design , open :
+
+lib/detail_club.dart
+
+- If you want to update club database, open :
+
+/lib/model/indonesian_club.dart
 
 A few resources to get you started if this is your first Flutter project:
 
