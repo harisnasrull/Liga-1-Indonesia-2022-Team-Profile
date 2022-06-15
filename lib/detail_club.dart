@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:liga_indonesia_2022/model/IndonesianClub.dart';
+import 'package:liga_indonesia_2022/model/indonesian_club.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class DetailScreen extends StatelessWidget {
@@ -350,21 +350,21 @@ class DetailClubWebsite extends StatelessWidget {
                     ),
                   ),
                   Scrollbar(
-                    isAlwaysShown: true,
                     controller: ScrollController(),
                     child: SizedBox(
-                        height: 300,
-                        child: ListView(
-                            scrollDirection: Axis.horizontal,
-                            children: club.stadiumImageUrl.map((url) {
-                              return Padding(
-                                padding: const EdgeInsets.all(24.0),
-                                child: ClipRRect(
-                                  borderRadius: BorderRadius.circular(20),
-                                  child: Image.network(url),
-                                ),
-                              );
-                            }).toList())),
+                      height: 300,
+                      child: ListView(
+                          scrollDirection: Axis.horizontal,
+                          children: club.stadiumImageUrl.map((url) {
+                            return Padding(
+                              padding: const EdgeInsets.all(24.0),
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(20),
+                                child: Image.network(url),
+                              ),
+                            );
+                          }).toList()),
+                    ),
                   ),
                   Container(
                       margin: const EdgeInsets.only(
@@ -439,22 +439,3 @@ class DetailClubWebsite extends StatelessWidget {
     );
   }
 }
-//
-//
-// class DetailClubWebsite extends StatefulWidget {
-//   final IndonesianClub club;
-//
-//   const DetailClubWebsite({Key? key, required this.club}) : super(key: key);
-//
-//   @override
-//   State<DetailClubWebsite> createState() => _DetailClubWebsiteState();
-// }
-//
-// class _DetailClubWebsiteState extends State<DetailClubWebsite> {
-//   final _scrollController = ScrollController();
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return
-//   }
-// }

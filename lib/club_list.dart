@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:liga_indonesia_2022/detail_club.dart';
-import 'package:liga_indonesia_2022/model/IndonesianClub.dart';
+import 'package:liga_indonesia_2022/model/indonesian_club.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({Key? key}) : super(key: key);
@@ -141,7 +141,7 @@ class ClubGrid extends StatelessWidget {
                               child: Text(club.name,
                                   textAlign: TextAlign.center,
                                   style: textStyle),
-                            ))
+                            )),
                       ],
                     ),
                   ),
