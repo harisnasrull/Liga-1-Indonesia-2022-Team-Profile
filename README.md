@@ -18,6 +18,12 @@ Mobile Apps for Liga 1 Indonesia 2022 team list and profile using Flutter, you c
 
 A few resources to get you started if this is your first Flutter project:
 
+You can get database and detail of each club from website :
+
+                  https://www.thesportsdb.com/league/4790-Indonesian-Super-League
+
+                  https://ligaindonesiabaru.com
+
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
